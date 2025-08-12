@@ -1,0 +1,21 @@
+{
+    "version": "2025.01.01"
+    "device type": {
+        "a": {
+            "description": "analyzer/sniffer",
+            "status": "approved",
+            "last update": "05/01/2025"
+        },
+        "f": {
+            "description": "firewall",
+            "status": "approved",
+            "last update": "05/01/2025"
+        },      
+        "i": {
+            "description": "intrusion detector",
+            "status": "approved",
+            "last update": "05/01/2025"
+        },
+    }
+
+}
