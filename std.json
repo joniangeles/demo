@@ -1,15 +1,23 @@
-{    
-    "color": [ "red", "orange", "yellow", "green", "blue", "violet" ],
-    "size": [ "small", "medium", "large", "extra large" ],
-    "group": [ "Apple", "Banana", "Orange", "Lemon", "Kiwi", "Mango" ],
-    "region": [ "North America", "Asia", "Europe" ],
-    "os": [ "Windows", "Ubuntu", "Debian", "RedHat", "Fedora", "MacOS" ],
-    "team": [ "Dog", "Cat", "Tiger", "Dolphin", "Bear", "Eagle" ]
+{
+    "version": "2025.01.01",
+    "device type": {
+        "a": {
+            "description": "analyzer/sniffer",
+            "status": "approved",
+            "last update": "05/01/2025"
+        },
+        "f": {
+            "description": "firewall",
+            "status": "approved",
+            "last update": "05/01/2025"
+        },
+        "i": {
+            "description": "intrusion detector",
+            "status": "approved",
+            "last update": "05/01/2025"
+        }
+    }
+
 }
-
-
-
-
-
 
 
