@@ -1,21 +1,198 @@
 {
-    "version": "2025.01.01",
-    "device type": {
-        "a": {
-            "description": "analyzer/sniffer",
-            "status": "approved",
-            "last update": "05/01/2025"
-        },
-        "f": {
-            "description": "firewall",
-            "status": "approved",
-            "last update": "05/01/2025"
-        },
-        "i": {
-            "description": "intrusion detector",
-            "status": "approved",
-            "last update": "05/01/2025"
-        }
-    }
+    
+    "color": [ "red", "orange", "yellow", "green", "blue", "violet" ],
+    "size": [ "small", "medium", "large", "extra large" ],
+    "group": [ "Apple", "Banana", "Orange", "Lemon", "Kiwi", "Mango" ],
+    "region": [ "North America", "Asia", "Europe" ],
+    "os": [ "Windows", "Ubuntu", "Debian", "RedHat", "Fedora", "MacOS" ],
+    "team": [ "Dog", "Cat", "Tiger", "Dolphin", "Bear", "Eagle" ],
 
+    "classification" : [
+        {   "id": 5,
+            "name": "A",
+            "description": "Class A",
+            "rule": [
+                {   "color": [],
+                    "size": ["small"],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 10,
+            "name": "B",
+            "description": "Class B",
+            "rule": [
+                {   "color": [],
+                    "size": [],
+                    "group": ["Apple"],
+                    "region": [],
+                    "os": [ "Ubuntu", "Debian" ],
+                    "team": [ "Dog" ]
+                },
+                {   "color": [],
+                    "size": [],
+                    "group": [ "Banana" ],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                },
+            ]
+        },
+        {   "id": 20,
+            "name": "C",
+            "description": "Class C",
+            "rule": [
+                {   "color": [],
+                    "size": [],
+                    "group": [ "Orange" ],
+                    "region": [],
+                    "os": [ "RedHat", "Fedora" ],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 30,
+            "name": "D",
+            "description": "Class D",
+            "rule": [
+                {   "color": [],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": [ "Cat", "Tiger" ]
+                }
+            ]
+        },
+        {   "id": 40,
+            "name": "E",
+            "description": "Class E",
+            "rule": [
+                {   "color": [ "yellow" ],
+                    "size": [],
+                    "group": [],
+                    "region": [ "Asia" ],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 50,
+            "name": "F",
+            "description": "Class F",
+            "rule": [
+                {   "color": [ "green" ],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                },
+                {   "color": [],
+                    "size": [],
+                    "group": [],
+                    "region": [ "Asia", "Europe" ],
+                    "os": [ "Windows" ],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 60,
+            "name": "G",
+            "description": "Class G",
+            "rule": [
+                {   "color": [],
+                    "size": [ "extra large" ],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                },
+                {   "color": [],
+                    "size": [ "large" ],
+                    "group": [ "North America" ],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                },
+            ]
+        },
+        {   "id": 70,
+            "name": "H",
+            "description": "Class H",
+            "rule": [
+                {   "color": [],
+                    "size": [ "medium" ],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                },
+                {   "color": [],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [ "MacOS" ],
+                    "team": []
+                },
+            ]
+        },
+        {   "id": 80,
+            "name": "I",
+            "description": "Class I",
+            "rule": [
+                {   "color": [ "violet" ],
+                    "size": [],
+                    "group": [],
+                    "region": [ "Europe" ],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 90,
+            "name": "J",
+            "description": "Class J",
+            "rule": [
+                {   "color": [ "blue" ],
+                    "size": [],
+                    "group": [],
+                    "region": [ "Asia" ],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 100,
+            "name": "k",
+            "description": "Class k",
+            "rule": [
+                {   "color": [ "green", "blue", "violet" ],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },      
+        {   "id": 200,
+            "name": "X",
+            "description": "Class X",
+            "rule": [
+                {   "color": [],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        }       
+    ]
 }
+
+
