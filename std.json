@@ -29,7 +29,7 @@
                     "size": [],
                     "group": ["Apple"],
                     "region": [],
-                    "os": [ "Ubuntu", "Debian" ].
+                    "os": [ "Ubuntu", "Debian" ],
                     "team": [ "Dog" ]
                 },
                 {   "color": [],
@@ -125,22 +125,75 @@
             "description": "Class H",
             "rule": [
                 {   "color": [],
-                    "size": [ "extra large" ],
+                    "size": [ "medium" ],
                     "group": [],
                     "region": [],
                     "os": [],
                     "team": []
                 },
                 {   "color": [],
-                    "size": [ "large" ],
-                    "group": [ "North America" ],
+                    "size": [],
+                    "group": [],
                     "region": [],
-                    "os": [],
+                    "os": [ "MacOS" ],
                     "team": []
                 },
             ]
         },
+        {   "id": 80,
+            "name": "I",
+            "description": "Class I",
+            "rule": [
+                {   "color": [ "violet" ],
+                    "size": [],
+                    "group": [],
+                    "region": [ "Europe" ],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 90,
+            "name": "J",
+            "description": "Class J",
+            "rule": [
+                {   "color": [ "blue" ],
+                    "size": [],
+                    "group": [],
+                    "region": [ "Asia" ],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },
+        {   "id": 100,
+            "name": "k",
+            "description": "Class k",
+            "rule": [
+                {   "color": [ "green", "blue", "violet" ],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },      
+        {   "id": 200,
+            "name": "X",
+            "description": "Class X",
+            "rule": [
+                {   "color": [],
+                    "size": [],
+                    "group": [],
+                    "region": [],
+                    "os": [],
+                    "team": []
+                }
+            ]
+        },        
     ]
+}
 
 
 
